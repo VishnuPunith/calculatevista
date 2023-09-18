@@ -14,7 +14,7 @@
             <el-dropdown-item><router-link to="/AC_to_DC" class="textd">AC to DC Converter</router-link></el-dropdown-item>
             <el-dropdown-item><router-link to="/inchtofeet" class="textd">Inch to Feet</router-link></el-dropdown-item>
             <el-dropdown-item><router-link to="/sqtoac" class="textd"> Square Meter to Acre</router-link></el-dropdown-item>
-            <el-dropdown-item>Convert Decimal to Friction</el-dropdown-item>
+            <el-dropdown-item><router-link to="/decimaltofr" class="textd"> Decimal to Friction</router-link></el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
         <el-dropdown>
