@@ -22,8 +22,8 @@
             Physics Calculator<i class="el-icon-arrow-down el-icon--right"></i>
           </el-button>
           <el-dropdown-menu slot="dropdown" class="drop">
-            <el-dropdown-item>Wavelength Calculator</el-dropdown-item>
-            <el-dropdown-item>Work Calculator</el-dropdown-item>
+            <el-dropdown-item><router-link to="/wavelength" class="textd">Wave Length Calculator</router-link></el-dropdown-item>
+            <el-dropdown-item><router-link to="/work" class="textd">Work Calculator</router-link></el-dropdown-item>
             <el-dropdown-item>Total Work Calculator</el-dropdown-item>
             <el-dropdown-item>Pressure Calculator</el-dropdown-item>
             <el-dropdown-item>Power Calculator</el-dropdown-item>
@@ -84,7 +84,7 @@
           </el-dropdown-menu>
         </el-dropdown>
         <el-row>
-          <el-button type="primary" round class="font">Online Calculator</el-button>
+          <el-button type="primary" round class="font"><router-link to="/onlinecalc" class="cm"> Online Calculator</router-link></el-button>
         </el-row>
       </div>
     </nav>
@@ -122,9 +122,14 @@ body {
 }
 .textd{
   text-decoration: none;
+  color: black;
 }
 .el-dropdown {
   vertical-align: top;
+}
+.cm{
+  text-decoration: none;
+  color: aliceblue;
 }
 .el-dropdown + .el-dropdown {
   margin-left: 15px;
