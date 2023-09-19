@@ -6,25 +6,12 @@
       <div class="button">
         <el-dropdown>
           <el-button type="primary" class="font">
-            Conversion Tool<i class="el-icon-arrow-down el-icon--right"></i>
-          </el-button>
-          <el-dropdown-menu slot="dropdown" class="drop">
-            <el-dropdown-item><router-link to="/cmtokm" class="textd">M to Km</router-link></el-dropdown-item>
-            <el-dropdown-item><router-link to="/cmtom" class="textd">Convert Cm to M</router-link></el-dropdown-item>
-            <el-dropdown-item><router-link to="/AC_to_DC" class="textd">AC to DC Converter</router-link></el-dropdown-item>
-            <el-dropdown-item><router-link to="/inchtofeet" class="textd">Inch to Feet</router-link></el-dropdown-item>
-            <el-dropdown-item><router-link to="/sqtoac" class="textd"> Square Meter to Acre</router-link></el-dropdown-item>
-            <el-dropdown-item><router-link to="/decimaltofr" class="textd"> Decimal to Friction</router-link></el-dropdown-item>
-          </el-dropdown-menu>
-        </el-dropdown>
-        <el-dropdown>
-          <el-button type="primary" class="font">
             Physics Calculator<i class="el-icon-arrow-down el-icon--right"></i>
           </el-button>
           <el-dropdown-menu slot="dropdown" class="drop">
             <el-dropdown-item><router-link to="/wavelength" class="textd">Wave Length Calculator</router-link></el-dropdown-item>
             <el-dropdown-item><router-link to="/work" class="textd">Work Calculator</router-link></el-dropdown-item>
-            <el-dropdown-item>Total Work Calculator</el-dropdown-item>
+            <el-dropdown-item><router-link to="/totalwork" class="textd"> Total Work Calculator</router-link></el-dropdown-item>
             <el-dropdown-item>Pressure Calculator</el-dropdown-item>
             <el-dropdown-item>Power Calculator</el-dropdown-item>
             <el-dropdown-item>Ohms Law Calculator</el-dropdown-item>
